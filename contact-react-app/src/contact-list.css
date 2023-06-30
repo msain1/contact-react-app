@@ -1,0 +1,28 @@
+.contactTable {
+  width: 740px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactTable th,
+.contactTable td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.contactTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.contactTable th i {
+  margin-right: 2px;
+}
+
+.contactTable td:first-child {
+  text-align: left;
+}
